@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="container header__container">
+        <div class="logo">LOGO</div>
+        <nav class="nav">
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn-grad-2" id="darkBtn">
+          <img id="darkImg" src="./img/quyosh.svg" alt="" width="20" />
+          light mode
+        </button>
+      </section>
+    </header>
+    <main>
+      <section class="container hero__container">
+        <h1>TO DO APP</h1>
+        <form id="formTodo" class="form">
+          <input
+            id="inputText"
+            class="inputText"
+            type="text"
+            placeholder="Enter todo..."
+            required
+          />
+          <button id="submitBtn" class="btn btn-grad" type="submit">
+            submit
+          </button>
+        </form>
+        <ul id="ulList">
+          <li></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <h2>footer</h2>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
